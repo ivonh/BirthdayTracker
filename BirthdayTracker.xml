@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BirthdayTracker</name>
+    </assembly>
+    <members>
+        <member name="F:BirthdayTracker.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BirthdayTracker.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BirthdayTracker.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BirthdayTracker.Friends">
+            <summary>
+            Friend class
+            This class used to create instances to store and read content from external csv file
+            Data: Name, Likes, Dislikes, Day, Month
+            Methods: Constructor, Get/Set Methods for the data, ToString, ToCSVString, CompareTo
+            </summary>
+            <remarks>Ivon Harris 27-Feb-2022</remarks>
+        </member>
+        <member name="P:BirthdayTracker.Friends.Name">
+            <summary>
+            Public proerties for each data field
+            built in get and set methods
+            </summary>
+        </member>
+        <member name="M:BirthdayTracker.Friends.#ctor(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Friends Constructor method
+            Purpose: Creates instance of the Class
+            </summary>
+            <param name="name">name of your friend</param>
+            <param name="likes">what they like</param>
+            <param name="dislikes">what they dislike</param>
+            <param name="day">the day of their birthday</param>
+            <param name="month">the month of their birthday</param>
+        </member>
+        <member name="M:BirthdayTracker.Friends.ToString">
+            <summary>
+            ToString () method
+            Purpose: provides a string version concatenated instance variables
+            </summary>
+            <returns>string of instance values</returns>
+        </member>
+        <member name="M:BirthdayTracker.Friends.CompareTo(BirthdayTracker.Friends)">
+            <summary>
+            CompareTo() method
+            Purpose: Compares instance with other Enrolment objects
+            </summary>
+            <param name="other"></param>
+            <returns>int 0, 1 or other</returns>
+        </member>
+        <member name="M:BirthdayTracker.Friends.ToCSVString">
+            <summary>
+            ToCSVString() method
+            Purpose: Provide a CSV string format of variables to write to CSV file
+            </summary>
+            <returns>string csv formatted values</returns>
+        </member>
+        <member name="M:BirthdayTracker.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:BirthdayTracker.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BirthdayTracker.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BirthdayTracker.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
